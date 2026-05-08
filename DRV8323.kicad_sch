@@ -5146,16 +5146,6 @@
 		)
 		(uuid "07214094-d646-4acf-8077-2dfe5e9b9908")
 	)
-	(label "MCU"
-		(at 25.4 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "224df875-ed37-4bf7-abe7-9b051425808c")
-	)
 	(label "PhaseB"
 		(at 208.28 48.26 0)
 		(effects
@@ -5245,16 +5235,6 @@
 			(justify right bottom)
 		)
 		(uuid "7daa8294-70dc-4134-9a06-a3bf2380eb1f")
-	)
-	(label "MCU"
-		(at 40.64 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8bc9c11b-7d66-4fe0-a194-2368fd352b8a")
 	)
 	(label "CurrentSense_B"
 		(at 204.47 101.6 180)
@@ -5587,6 +5567,50 @@
 		(uuid "aad4ca95-f233-4164-a42d-f1b43882c06b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 56.2814 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DRVEn"
+		(shape input)
+		(at 40.64 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c24e2774-4759-4416-b37a-7fe6a5b47e2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.7282 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAULT"
+		(shape input)
+		(at 25.4 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5760c2a-6b42-4274-b62c-32d77b688bc6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.9114 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)

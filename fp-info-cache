@@ -1,4 +1,4 @@
-26641716082194436
+26647051160923487
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97131,6 +97131,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SMD_Button
+SW_3x6_SMD_LCSC
+
+
+0
+2
+2
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -104257,6 +104264,20 @@ screw terminal thread redcube thr power connector
 0
 18
 1
+TerminalBlocks
+TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal
+terminal block Metz Connect Type703_RT10N02HGLU, 2 pins, pitch 9.52mm, size 19x12.5mm, drill diameter 1.3mm, pad diameter 2.6mm, https://www.metz-connect.com/externalfiles/317031/863835.PDF, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MetzConnect
+THT terminal block Metz Connect Type703_RT10N02HGLU pitch 9.52mm size 19x12.5mm drill 1.3mm pad 2.6mm
+0
+2
+2
+TerminalBlocks
+TerminalBlock_MetzConnect_Type703_RT10N03HGLU_1x03_P9.52mm_Horizontal
+terminal block Metz Connect Type703_RT10N03HGLU, 3 pins, pitch 9.52mm, size 28.6x12.5mm, drill diameter 1.3mm, pad diameter 2.6mm, https://www.metz-connect.com/externalfiles/317031/863835.PDF, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MetzConnect
+THT terminal block Metz Connect Type703_RT10N03HGLU pitch 9.52mm size 28.6x12.5mm drill 1.3mm pad 2.6mm
+0
+3
+3
 TestPoint
 TestPoint_2Pads_Pitch2.54mm_Drill0.8mm
 Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm

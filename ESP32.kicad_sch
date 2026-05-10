@@ -3142,24 +3142,88 @@
 		(uuid "ed964c07-2b34-4133-aab3-fc44d88c79d9")
 	)
 	(no_connect
+		(at 161.29 121.92)
+		(uuid "0beab47a-601f-4f43-a75a-6e521e6507e9")
+	)
+	(no_connect
+		(at 130.81 121.92)
+		(uuid "0dc60dad-4464-4c21-8e0c-4d35c4b526d2")
+	)
+	(no_connect
+		(at 130.81 81.28)
+		(uuid "13f41d30-4ae2-44ce-920d-8374e7159953")
+	)
+	(no_connect
+		(at 130.81 116.84)
+		(uuid "24f7d899-173e-46f3-ba22-fa6f7d866736")
+	)
+	(no_connect
 		(at 161.29 116.84)
 		(uuid "31deda1f-0d4c-4073-b001-3b6b2ea372e1")
+	)
+	(no_connect
+		(at 130.81 86.36)
+		(uuid "48b25968-2f0f-4bd9-8578-80ca8e60edd5")
 	)
 	(no_connect
 		(at 161.29 86.36)
 		(uuid "52bf93c6-5fc9-4086-a28b-9c75ad5fd320")
 	)
 	(no_connect
+		(at 161.29 71.12)
+		(uuid "54aaaae1-2cfe-4772-8860-666f39839403")
+	)
+	(no_connect
+		(at 161.29 109.22)
+		(uuid "5f4eb149-7f04-4692-8b5d-78e8fe5bfe84")
+	)
+	(no_connect
+		(at 130.81 88.9)
+		(uuid "5fc9fd6a-80b7-4ed4-85f9-7c529bf9ab83")
+	)
+	(no_connect
 		(at 233.68 76.2)
 		(uuid "5fcad50a-45db-4777-aacb-4fe996ce2fc2")
+	)
+	(no_connect
+		(at 161.29 73.66)
+		(uuid "8a1ed704-2094-457a-9d57-6b0d85f2f7c8")
+	)
+	(no_connect
+		(at 161.29 106.68)
+		(uuid "95eb4d11-26a4-42c7-abc3-6843dc016414")
 	)
 	(no_connect
 		(at 130.81 83.82)
 		(uuid "9d155755-6111-46c4-920d-e6d6115d4256")
 	)
 	(no_connect
+		(at 161.29 83.82)
+		(uuid "bf54aece-0444-4e0d-8680-141f19f760d9")
+	)
+	(no_connect
+		(at 161.29 119.38)
+		(uuid "c7f498d6-eefe-4a07-8690-ea4786ec49a2")
+	)
+	(no_connect
+		(at 130.81 114.3)
+		(uuid "d2d071da-838b-4091-a960-24a472b0abe6")
+	)
+	(no_connect
+		(at 161.29 104.14)
+		(uuid "d826bad8-59d3-458e-9ba3-f6c731f81fb4")
+	)
+	(no_connect
 		(at 161.29 114.3)
 		(uuid "e855a87c-a6b9-4b43-98b0-08e31d5e70d1")
+	)
+	(no_connect
+		(at 130.81 119.38)
+		(uuid "f93bc322-db22-444b-aa2f-f19c9ce4d328")
+	)
+	(no_connect
+		(at 161.29 111.76)
+		(uuid "fdf1d616-7247-4c38-ba94-f65e2a5941ea")
 	)
 	(wire
 		(pts
@@ -3243,6 +3307,26 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 85.09) (xy 109.22 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23dfc3d0-fd63-4bec-9b9f-e6e9d233ccc5")
+	)
+	(wire
+		(pts
+			(xy 97.79 80.01) (xy 109.22 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a6e60c7-c1d2-48b0-92cb-dcfc340d43c5")
+	)
+	(wire
+		(pts
 			(xy 161.29 96.52) (xy 163.83 96.52)
 		)
 		(stroke
@@ -3310,6 +3394,16 @@
 			(type default)
 		)
 		(uuid "40ba7827-a0f4-4472-b64b-78d466776adb")
+	)
+	(wire
+		(pts
+			(xy 129.54 85.09) (xy 109.22 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "472b0ded-f3de-4a74-adcc-3ff8d3b38587")
 	)
 	(wire
 		(pts
@@ -3413,16 +3507,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 80.01) (xy 129.54 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61c64db3-12d4-4cf2-bd4c-bad2214899b5")
-	)
-	(wire
-		(pts
 			(xy 63.5 76.2) (xy 130.81 76.2)
 		)
 		(stroke
@@ -3520,16 +3604,6 @@
 			(type default)
 		)
 		(uuid "781da7dd-ecbc-4562-a83e-d3e8b9ae3376")
-	)
-	(wire
-		(pts
-			(xy 97.79 80.01) (xy 129.54 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7820fdbc-f364-481c-8334-c31c57826621")
 	)
 	(wire
 		(pts
@@ -3733,6 +3807,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 81.28) (xy 97.79 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa2066e8-84fa-468e-bd89-969ed090243e")
+	)
+	(wire
+		(pts
 			(xy 214.63 90.17) (xy 217.17 90.17)
 		)
 		(stroke
@@ -3873,6 +3957,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 91.44) (xy 129.54 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda9e59c-4319-411f-9c34-49b1d28d84b1")
+	)
+	(wire
+		(pts
 			(xy 250.19 68.58) (xy 243.84 68.58)
 		)
 		(stroke
@@ -3991,27 +4085,45 @@
 		)
 		(uuid "fd53262c-e9a4-4f1f-972b-dc5903c64dd8")
 	)
-	(global_label "SOCA"
-		(shape input)
-		(at 83.82 80.01 180)
-		(fields_autoplaced yes)
+	(label "D+"
+		(at 165.1 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "0dcdceff-e4e3-4072-8ba1-64d173b064c7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.9362 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "25d6b677-8de1-4abc-a764-1153d5a20ec9")
+	)
+	(label "D-"
+		(at 227.33 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
+		(uuid "4c225b3d-5d97-43ce-865c-9edcffef5d96")
+	)
+	(label "D+"
+		(at 227.33 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3eb5123-e039-4449-a4c9-c9a7cb865ec3")
+	)
+	(label "D-"
+		(at 165.1 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1937d23-e5da-495c-ba54-087854aba1b3")
 	)
 	(global_label "SLCK"
 		(shape input)
@@ -4101,6 +4213,28 @@
 			)
 		)
 	)
+	(global_label "SOCC"
+		(shape input)
+		(at 83.82 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b1a3ba6-6377-4b2f-b2ef-76f527afd8ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.7548 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SOCB"
 		(shape input)
 		(at 73.66 90.17 180)
@@ -4136,6 +4270,28 @@
 		(uuid "5b4c13fe-fcfd-48ae-9ef1-ea77c82e185e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.2782 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SOCA"
+		(shape input)
+		(at 71.12 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6aaf7128-9baf-4052-9b98-4b14f52b1f3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.2362 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4207,28 +4363,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SOCC"
-		(shape input)
-		(at 71.12 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a38a2cf3-6763-403a-803c-2f94a07fdc47")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.0548 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4770,7 +4904,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127.9652 50.8 0)
 			(effects
 				(font
@@ -4969,7 +5103,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 88.646 117.094 90)
 			(effects
 				(font
@@ -5036,7 +5170,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 78.994 89.154 90)
 			(effects
 				(font
@@ -5170,7 +5304,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 87.884 78.994 90)
 			(effects
 				(font
@@ -5240,7 +5374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 92.4052 107.95 0)
 			(effects
 				(font
@@ -5373,7 +5507,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 214.63 89.2048 0)
 			(effects
 				(font
@@ -5505,7 +5639,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.864 75.184 90)
 			(effects
 				(font
@@ -5638,7 +5772,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 136.1948 43.18 0)
 			(effects
 				(font
@@ -5771,7 +5905,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.314 65.024 90)
 			(effects
 				(font
@@ -5838,7 +5972,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 102.87 56.1848 0)
 			(effects
 				(font
@@ -5908,7 +6042,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SMD_Button:SW_3x6_SMD_LCSC"
 			(at 58.42 81.28 0)
 			(effects
 				(font
@@ -6124,7 +6258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 89.8652 97.79 0)
 			(effects
 				(font
@@ -6324,7 +6458,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 206.7052 125.73 0)
 			(effects
 				(font
@@ -6654,7 +6788,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 76.454 99.314 90)
 			(effects
 				(font
@@ -6724,7 +6858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 98.7552 87.63 0)
 			(effects
 				(font
@@ -7015,7 +7149,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SMD_Button:SW_3x6_SMD_LCSC"
 			(at 110.49 63.5 0)
 			(effects
 				(font

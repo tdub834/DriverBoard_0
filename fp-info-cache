@@ -1,4 +1,4 @@
-26647051160923487
+26650609248475627
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61361,6 +61361,20 @@ ESP32-S3-MINI-1-N8
 0
 73
 73
+ESP-32-S3-MINI-1
+Fixed_NTSFET
+
+NTMFS5C628NLT1G 
+0
+7
+7
+ESP-32-S3-MINI-1
+NTMF_FET_FIXED
+
+NTMFS5C628NLT1G 
+0
+7
+6
 ESP-32-S3-MINI-1
 RGZ0048A
 

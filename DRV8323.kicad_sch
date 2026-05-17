@@ -3201,6 +3201,12 @@
 		(uuid "ba140489-4354-4093-b457-9d3ab4279930")
 	)
 	(junction
+		(at 257.81 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf88db3d-4f5d-44ad-9dcf-215b1e5f7ae0")
+	)
+	(junction
 		(at 215.9 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3925,6 +3931,16 @@
 			(type default)
 		)
 		(uuid "46c83c3b-beaf-4fa3-ba91-ec0553224ff2")
+	)
+	(wire
+		(pts
+			(xy 254 158.75) (xy 254 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c387a3-448a-4ef6-be8d-40d2a5b6ef4e")
 	)
 	(wire
 		(pts
@@ -4908,6 +4924,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 153.67) (xy 260.35 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a868bf36-3522-4840-8278-04541eaad91b")
+	)
+	(wire
+		(pts
 			(xy 201.93 53.34) (xy 201.93 50.8)
 		)
 		(stroke
@@ -5085,6 +5111,16 @@
 			(type default)
 		)
 		(uuid "badce134-bb96-403a-8fdd-6187dabeb976")
+	)
+	(wire
+		(pts
+			(xy 260.35 153.67) (xy 260.35 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde7c15d-d6bb-4e2f-a543-575bf6564246")
 	)
 	(wire
 		(pts
@@ -5328,6 +5364,26 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 157.48) (xy 262.89 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db1a6d21-ba2b-4786-ae21-97f2fe50a8cd")
+	)
+	(wire
+		(pts
+			(xy 254 153.67) (xy 257.81 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db341b17-e2f2-4674-82f7-5e0c1240885c")
+	)
+	(wire
+		(pts
 			(xy 48.26 54.61) (xy 64.77 54.61)
 		)
 		(stroke
@@ -5515,16 +5571,6 @@
 			(type default)
 		)
 		(uuid "ec938293-8b4a-489e-b5f5-2025879f353a")
-	)
-	(wire
-		(pts
-			(xy 254 158.75) (xy 256.54 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0adef72-bdcd-448f-af9a-a05b0900afb2")
 	)
 	(wire
 		(pts
@@ -6552,7 +6598,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ESP-32-S3-MINI-1:DFN5_5X6_ONS"
+		(property "Footprint" "ESP-32-S3-MINI-1:NTMF_FET_FIXED"
 			(at 153.67 120.65 0)
 			(effects
 				(font
@@ -6743,6 +6789,76 @@
 			(project ""
 				(path "/d384c841-cbb4-43a6-88c3-e1bf606ffd62/b93c4029-f99b-4aa0-b921-a6e9eb4bda3c"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 257.81 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fad2631-f1fb-4d53-9542-a4d50543b259")
+		(property "Reference" "C2"
+			(at 261.62 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1 uF"
+			(at 261.62 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 256.8448 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 257.81 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb654589-f3a3-4202-b2a0-5e7b083118eb")
+		)
+		(pin "1"
+			(uuid "17f128a3-58d2-4aa4-b9ac-1a9596d4e385")
+		)
+		(instances
+			(project "Motor_driver_board"
+				(path "/d384c841-cbb4-43a6-88c3-e1bf606ffd62/b93c4029-f99b-4aa0-b921-a6e9eb4bda3c"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8798,7 +8914,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 256.54 158.75 0)
+		(at 262.89 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8807,7 +8923,7 @@
 		(fields_autoplaced yes)
 		(uuid "77538be6-f319-4b80-bb8c-99039e62fc0b")
 		(property "Reference" "#PWR065"
-			(at 256.54 162.56 0)
+			(at 262.89 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8816,7 +8932,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 256.54 153.67 0)
+			(at 262.89 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8824,7 +8940,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 158.75 0)
+			(at 262.89 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8833,7 +8949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 158.75 0)
+			(at 262.89 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8842,7 +8958,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 256.54 158.75 0)
+			(at 262.89 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9158,7 +9274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESP-32-S3-MINI-1:DFN5_5X6_ONS"
+		(property "Footprint" "ESP-32-S3-MINI-1:NTMF_FET_FIXED"
 			(at 271.78 104.14 0)
 			(effects
 				(font
@@ -9594,7 +9710,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ESP-32-S3-MINI-1:DFN5_5X6_ONS"
+		(property "Footprint" "ESP-32-S3-MINI-1:NTMF_FET_FIXED"
 			(at 233.68 67.31 0)
 			(effects
 				(font
@@ -9937,7 +10053,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ESP-32-S3-MINI-1:DFN5_5X6_ONS"
+		(property "Footprint" "ESP-32-S3-MINI-1:NTMF_FET_FIXED"
 			(at 179.07 93.98 0)
 			(effects
 				(font
@@ -10085,7 +10201,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ESP-32-S3-MINI-1:DFN5_5X6_ONS"
+		(property "Footprint" "ESP-32-S3-MINI-1:NTMF_FET_FIXED"
 			(at 201.93 99.06 0)
 			(effects
 				(font
@@ -10136,6 +10252,73 @@
 			(project "Motor_driver_board"
 				(path "/d384c841-cbb4-43a6-88c3-e1bf606ffd62/b93c4029-f99b-4aa0-b921-a6e9eb4bda3c"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 161.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d794847c-99aa-4ee6-b11e-a398e225a131")
+		(property "Reference" "#PWR073"
+			(at 251.46 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bbe4e87-0cb8-400e-9457-4826b58bc960")
+		)
+		(instances
+			(project "Motor_driver_board"
+				(path "/d384c841-cbb4-43a6-88c3-e1bf606ffd62/b93c4029-f99b-4aa0-b921-a6e9eb4bda3c"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -10303,7 +10486,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ESP-32-S3-MINI-1:DFN5_5X6_ONS"
+		(property "Footprint" "ESP-32-S3-MINI-1:NTMF_FET_FIXED"
 			(at 134.62 114.3 0)
 			(effects
 				(font
@@ -10386,7 +10569,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ESP-32-S3-MINI-1:DFN5_5X6_ONS"
+		(property "Footprint" "ESP-32-S3-MINI-1:NTMF_FET_FIXED"
 			(at 264.16 74.93 0)
 			(effects
 				(font

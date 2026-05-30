@@ -6883,6 +6883,73 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 233.68 180.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15851ab8-4ff8-4dfc-b9b1-25141ff7feb5")
+		(property "Reference" "R2"
+			(at 236.474 180.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 230.124 180.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 232.664 180.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 233.68 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f142878d-da85-42c6-a307-dd1f8694c268")
+		)
+		(pin "1"
+			(uuid "79611aa8-8b1e-4ffe-9340-9bf5a9fd99f2")
+		)
+		(instances
+			(project "Motor_driver_board"
+				(path "/d384c841-cbb4-43a6-88c3-e1bf606ffd62/b93c4029-f99b-4aa0-b921-a6e9eb4bda3c"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 199.39 146.05 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7830,6 +7897,73 @@
 			(project "Motor_driver_board"
 				(path "/d384c841-cbb4-43a6-88c3-e1bf606ffd62/b93c4029-f99b-4aa0-b921-a6e9eb4bda3c"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 223.52 180.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cfeb39d-df82-4509-b154-08d08d2fb17d")
+		(property "Reference" "R1"
+			(at 226.314 180.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 219.964 180.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 222.504 180.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 223.52 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3fb642b0-7175-4da7-b416-3de7595db381")
+		)
+		(pin "1"
+			(uuid "bd4ffb36-3d5e-442b-8a32-9e72b031b4fa")
+		)
+		(instances
+			(project "Motor_driver_board"
+				(path "/d384c841-cbb4-43a6-88c3-e1bf606ffd62/b93c4029-f99b-4aa0-b921-a6e9eb4bda3c"
+					(reference "R1")
 					(unit 1)
 				)
 			)
